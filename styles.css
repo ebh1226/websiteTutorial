@@ -1,5 +1,15 @@
 body {
   background-color: moccasin;
+  font-size: 16px;
 }
 
 <!-- we have the part that we want the attribute to apply to, then brackets. different attributes online, we just used background color -->
+
+
+#container {
+  margin: 1em auto;
+  <!-- takes into account font size and auto picks margin space to center section -->
+  width: 80%;
+  background-color: white;
+}
+ <!-- # container reerences stuff in div with id of container -->
